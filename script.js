@@ -170,7 +170,8 @@ easy_mode.addEventListener("change", () => {
   alert_text.textContent = "Let's Start";
   colorChange(4);
   newColorButton.addEventListener("click",() =>{
-    colorChange(4)
+    colorChange(4);
+    head_box.style.backgroundColor = "blue";
   } )
 
   // for (let i = 0; i < 4; i++) {
@@ -188,7 +189,8 @@ hard_mode.addEventListener("change", () => {
   alert_text.textContent = "Let's Start";
  colorChange(8)
  newColorButton.addEventListener("click",() =>{
-  colorChange(8)
+  colorChange(8);
+  head_box.style.backgroundColor = "blue";
 } )
 console.log("hard mode running")
 })
